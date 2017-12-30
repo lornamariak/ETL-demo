@@ -13,10 +13,11 @@ if (n==1){
   }
 
 # insert analysis here
+#You can use dplyr here from tidyverse
 
 
 #export data
-
+#install.packages("RSQlite")
 
 library("RSQLite")
 sqlite    <- dbDriver("SQLite")
